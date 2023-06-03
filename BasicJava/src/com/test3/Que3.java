@@ -1,11 +1,17 @@
 package com.test3;
 
-public class Que3 {
-	public static void main(String[] args) {
-		
-		int a= 20;
-		a|=9;
-		System.out.println("a= "+a);
+class AB{
+	int rollno;
+	String name;
+	public static void showVar()
+	{
+//		System.out.println("roll no= "+rollno+"name= "+name);//we can't call non static variable in static method
 	}
-	// when |= is present in equation then addition performed.
+}
+public class Que3 {
+
+	public static void main(String[] args) {
+		AB ab= new AB();
+		ab.showVar();
+	}
 }

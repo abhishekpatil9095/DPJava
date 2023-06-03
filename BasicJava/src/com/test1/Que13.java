@@ -1,4 +1,4 @@
-package com.test3;
+package com.test1;
 
 public class Que13 {
 	public static void main(String[] args) {

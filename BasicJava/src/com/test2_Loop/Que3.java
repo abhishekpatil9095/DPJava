@@ -17,7 +17,7 @@ public class Que3 {
 		{
 			int digit = num1 % 100;
 			sum = sum + digit;
-			num1 = num1 / 100;
+			num1 = num1 / 1000;
 		}
 		num1=copy;
 		System.out.println("square= "+num1);

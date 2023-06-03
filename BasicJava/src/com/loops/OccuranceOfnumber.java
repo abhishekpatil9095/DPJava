@@ -11,9 +11,9 @@ public class OccuranceOfnumber {
 		System.out.println("enter the number");
 		int num= sc.nextInt();
 		int num1=num;
-		int count=0;
 		
-		for(int i=0; i<=9;i++) {	
+		for(int i=0; i<=9;i++) {
+			int count=0;
 			while(num>0)
 			{
 				int num2= num % 10;
@@ -22,6 +22,7 @@ public class OccuranceOfnumber {
 					count++;
 				}
 				num= num/10;
+				
 			}
 			num=num1;
 			if(count>0)

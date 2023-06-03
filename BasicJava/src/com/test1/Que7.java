@@ -1,4 +1,4 @@
-package com.test3;
+package com.test1;
 
 public class Que7 {
 	
